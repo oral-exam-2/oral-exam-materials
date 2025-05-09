@@ -1,21 +1,21 @@
-LIBNAME NCSU '/home/u424592';
+LIBNAME XXXXX '/home/uXXXXX';
 
-PROC IMPORT DATAFILE = '/home/u424592/cheese.csv'
+PROC IMPORT DATAFILE = '/home/uXXXXX/cheese.csv'
 	DBMS = CSV
-	OUT = NCSU.calories;
+	OUT = XXXXX.calories;
 	GETNAMES = YES;
 RUN;
 
 DATA subcalories;
-	SET NCSU.calories;
+	SET XXXXX.calories;
 	DROP date;
 	IF MISSING(lactic) THEN DELETE;
 	total = h2s + lactic;
 RUN;
 
-PROC SORT DATA = subcalories OUT = NCSU.sortcalories;
+PROC SORT DATA = subcalories OUT = XXXXX.sortcalories;
 	BY lactic;
 RUN;
 
-PROC PRINT DATA = NCSU.sortcalories;
+PROC PRINT DATA = XXXXX.sortcalories;
 RUN;
