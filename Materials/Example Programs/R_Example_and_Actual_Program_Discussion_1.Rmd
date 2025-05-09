@@ -20,7 +20,7 @@ The purpose of this document is to read some data into R and explore it briefly.
 Let's begin by reading in data from a URL. 
 
 ```{r}
-air <- read_csv("https://www4.stat.ncsu.edu/~online/datasets/AirQuality.csv")
+air <- read_csv("https://www4.XXXXX.edu/~online/datasets/AirQuality.csv")
 ```
 
 Now we'll read in data from a local file.
@@ -33,7 +33,7 @@ chickens <- read_excel("Chickens.xlsx")
 Lastly, let's bring in data from SAS.
 
 ```{r}
-smoke <- read_sas("https://www4.stat.ncsu.edu/~online/datasets/smoke2003.sas7bdat")
+smoke <- read_sas("https://www4.XXXXX.edu/~online/datasets/smoke2003.sas7bdat")
 ```
 
 # Manipulate Data
