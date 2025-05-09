@@ -62,12 +62,6 @@ Post_Exam <- Survey_Data |>
 
 Implementing Oral Exams at Scale Using Graduate Student Instructors
 
-Matthew Ferrell and Justin Post
-
-North Carolina State University
-
-mferrel\@ncsu.edu, jbpost2\@ncsu.edu
-
 {{< pagebreak >}}
 
 ## Abstract
@@ -341,8 +335,6 @@ As statistics and data science educators, we care deeply about not only what our
 None at the moment
 
 ## Funding
-
-Justin?
 
 ## References
 
