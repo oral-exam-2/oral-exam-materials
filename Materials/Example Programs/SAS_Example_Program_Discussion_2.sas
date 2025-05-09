@@ -1,4 +1,4 @@
-LIBNAME XXXXX '/home/u58009206/myLib';
+LIBNAME XXXXX '/home/uXXXXX/myLib';
 
 FILENAME house URL 'https://www4.XXXXX.edu/~online/datasets/BostonHouseTrain.csv';
 
